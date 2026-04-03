@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcrun simctl:*)",
+      "Bash(open -a Simulator)",
+      "Bash(find /Users/picnic/Documents/Development/Study-iOS/AI/BuildWithCLI -not -path */.* -type d)",
+      "Bash(grep -E \"README|Makefile|\\\\.md$\")",
+      "Bash(git add:*)"
+    ]
+  }
+}
